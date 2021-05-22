@@ -21,4 +21,4 @@ jobs:
       env:
         HUGO_VERSION: 0.68.3
         TARGET_REPO: matthewzhang1998/matthewzhang1998.github.io
-        TOKEN: ${{ secrets.TOKEN }}
+        TOKEN: ${{ secrets.EXAMPLE_TOKEN }}
