@@ -1,5 +1,4 @@
-name: Build and Deploy
-
+name: Push to GitHub Pages on push to master
 on:
   push:
     branches:
@@ -7,18 +6,17 @@ on:
 
 jobs:
   build:
-
+    name: Deploy
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout master
-      uses: actions/checkout@v1
-      with:
-        submodules: true
+      - name: Checkout master
+        uses: actions/checkout@v1
 
-    - name: Hugo Deploy GitHub Pages
-      uses: benmatselby/hugo-deploy-gh-pages@master
-      env:
-        HUGO_VERSION: 0.68.3
-        TARGET_REPO: matthewzhang1998/matthewzhang1998.github.io
-        TOKEN: ${{ secrets.EXAMPLE_TOKEN }}
+      - name: Deploy the site
+        uses: benmatselby/hugo-deploy-gh-pages@master
+        env:
+          HUGO_VERSION: 0.81.0
+          TARGET_REPO: benmatselby/benmatselby.github.io
+          TARGET_BRANCH: master
+          TOKEN: ${{ secrets.TOKEN }}
+          HUGO_ARGS: '-t academic'
