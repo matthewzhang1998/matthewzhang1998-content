@@ -24,7 +24,7 @@ doi: ""
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: International Conference on Learning Representations
+publication: International Conference on Learning Representations, 2020
 publication_short: ICLR
 
 abstract: 'Recent advances in the sparse neural network literature have made it possible to prune many large feed forward and convolutional networks with only a small quan- tity of data. Yet, these same techniques often falter when applied to the problem of recovering sparse recurrent networks. These failures are quantitative: when pruned with recent techniques, RNNs typically obtain worse performance than they do under a simple random pruning scheme. The failures are also qualitative: the distribution of active weights in a pruned LSTM or GRU network tend to be concentrated in specific neurons and gates, and not well dispersed across the entire architecture. We seek to rectify both the quantitative and qualitative issues with recurrent network pruning by introducing a new recurrent pruning objective derived from the spectrum of the recurrent Jacobian. Our objective is data efficient (requir- ing only 64 data points to prune the network), easy to implement, and produces 95 % sparse GRUs that significantly improve on existing baselines. We evaluate on sequential MNIST, Billion Words, and Wikitext.'

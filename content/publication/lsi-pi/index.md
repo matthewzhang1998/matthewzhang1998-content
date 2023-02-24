@@ -20,16 +20,16 @@ doi: ""
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "Conference on Learning Theory, 2022"
+publication_short: "COLT 2022"
 
 abstract: 'Classically, the continuous-time Langevin diffusion converges exponentially fast to its stationary distribution π under the sole assumption that π satisfies a Poincaré inequality. Using this fact to provide guarantees for the discrete-time Langevin Monte Carlo (LMC) algorithm, however, is considerably more challenging due to the need for working with chi-squared or Rényi divergences, and prior works have largely focused on strongly log-concave targets. In this work, we provide the first convergence guarantees for LMC assuming that π satisfies either a Latała--Oleszkiewicz or modified log-Sobolev inequality, which interpolates between the Poincaré and log-Sobolev settings. Unlike prior works, our results allow for weak smoothness and do not require convexity or dissipativity conditions.'
 
 # Summary. An optional shortened abstract.
-summary: We provide the first convergence guarantees for the Langevin Monte Carlo algorithm under an interpolated inequality between log-Sobolev and Poincaré, with improvements on either rates or assumptions seen in prior work.
+summary: We provide the first convergence guarantees for the Langevin Monte Carlo algorithm under an interpolated inequality between log-Sobolev and Poincaré, with improvements on both rates and assumptions seen in prior work.
 
 tags: []
 
