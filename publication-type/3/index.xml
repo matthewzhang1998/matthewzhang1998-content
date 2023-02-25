@@ -5,7 +5,7 @@
     <link>https://matthewzhang1998.github.io/publication-type/3/</link>
       <atom:link href="https://matthewzhang1998.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 23 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 16 Feb 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://matthewzhang1998.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>3</title>
@@ -21,18 +21,10 @@
     </item>
     
     <item>
-      <title>Analysis of Langevin Monte Carlo from Poincaré to Log-Sobolev</title>
-      <link>https://matthewzhang1998.github.io/publication/lsi-pi/</link>
-      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://matthewzhang1998.github.io/publication/lsi-pi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Convergence of Langevin Monte Carlo in Chi-Squared and Renyi Divergence</title>
-      <link>https://matthewzhang1998.github.io/publication/renyi-chisq/</link>
-      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://matthewzhang1998.github.io/publication/renyi-chisq/</guid>
+      <title>Improved Discretization Analysis for Underdamped Langevin Monte Carlo</title>
+      <link>https://matthewzhang1998.github.io/publication/ulmc-disc/</link>
+      <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://matthewzhang1998.github.io/publication/ulmc-disc/</guid>
       <description></description>
     </item>
     
